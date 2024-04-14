@@ -113,7 +113,7 @@ const Projects = () => {
                 View Details
               </a>
             </div>
-          </div>
+          {/* </div>
           <div className="portfolio__content mix ux">
             <a href="#" className>
               <img
@@ -172,7 +172,7 @@ const Projects = () => {
               <a href="#" className="button button-link">
                 View Details
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -79,15 +79,6 @@ const Marquees = () => {
         </div>
         <div className="skill-wrapper">
           <img
-            src="images/webflow.webp"
-            loading="lazy"
-            alt
-            className="tools-photo"
-          />
-          <h1 className="hero-marquee_content-title">Webflow</h1>
-        </div>
-        <div className="skill-wrapper">
-          <img
             src={image6}
             loading="lazy"
             alt
