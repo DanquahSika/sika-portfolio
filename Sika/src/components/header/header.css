@@ -1,85 +1,72 @@
 .main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
+    gap: 3rem;
     margin-top: 70px;
-
-}
-
-.main .men {
-    width: 400px;
-    transition: all 2000ms ease;
+  }
+  
+  .main .men {
+    width: 100%;
+    max-width: 400px;
+    transition: all 200ms ease;
     cursor: pointer;
-}
-
-.main .men:hover {
-    transform: scale(1.3);
-}
-
-.main .main-detil {
+  }
+  
+  .main-detil {
     text-align: center;
     color: #2a2a2a;
-}
-
-.main .main-detil h1 {
-    font-size: 50px;
-
-}
-
-.main .main-detil h4 {
-    font-size: 30px;
+  }
+  
+  .main-detil h1 {
+    font-size: 40px;
+  }
+  
+  .main-detil h4 {
+    font-size: 24px;
     margin-bottom: 20px;
-}
-
-.main .btn button {
+  }
+  
+  .main .btn button {
     padding: 8px 20px;
     background: transparent;
     border-radius: 30px;
     border: 1px solid #2a2a2a;
     margin-right: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     cursor: pointer;
-}
-
-.main .btn .btn-2 {
+  }
+  
+  .main .btn .btn-2 {
     padding: 8px 30px;
     background: #2a2a2a;
     color: #fff;
     border: none;
     outline: none;
-    transition: all 2000ms ease-in-out;
-
-}
-
-.main .btn .btn-2:hover {
-    background: #f4637b;
-    transform: scale(1.1);
-}
-
-.social i {
+    transition: all 200ms ease-in-out;
+  }
+  
+  .social i {
     color: #2a2a2a;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0px 14px;
-    transition: all 2000ms ease-in-out;
+    transition: all 200ms ease-in-out;
     cursor: pointer;
-}
-
-.social i:hover {
-    color: #f4637b;
-}
-
-.sub-btn a {
+  }
+    
+  
+  .sub-btn a {
     position: absolute;
     bottom: 60px;
     right: 50px;
     padding: 10px 20px;
     background: red;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     border-radius: 6px;
-}
+  }
 
 .wave {
     background: rgb(255 255 255 / 25%);
@@ -128,4 +115,33 @@
         transform: translateX(1);
     }
 }
+
+
+@media screen and (min-width: 768px) {
+    .main {
+      flex-direction: row;
+    }
+  
+    .main .men {
+      width: 400px;
+    }
+  
+    .main-detil h1 {
+      font-size: 50px;
+    }
+  
+    .main-detil h4 {
+      font-size: 30px;
+    }
+  
+    .social i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .wave {
+      display: block;
+    }
+  }
 

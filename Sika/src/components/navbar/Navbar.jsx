@@ -7,13 +7,12 @@ export const Navbar = () => {
         <>
             <div className="nav shadow-md">
                 <div className="logo">
-                    <h2><Link to="/">Sika Danquah</Link></h2>
+                    <h2><Link to="/">&lt;SikaDanquah /&gt;</Link></h2>
                 </div>
                 <div className="link">
                     <ul>
                         <li><Link to="/abouts" className="active">About</Link></li>
                         <li><Link to="/work">Work</Link></li>
-                        <li><Link to="/experience">Experience</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>

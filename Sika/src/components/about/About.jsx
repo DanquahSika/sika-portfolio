@@ -9,20 +9,21 @@ const Abouts = () => {
       <div className="text">
         <h2>About Me</h2>
         <h5>
-          Front-end Developer &amp; <span>Designer</span>
+          FullStack Developer
         </h5>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-          natus ad sed harum itaque ullam enim quas, veniam accusantium, quia
-          animi id eos adipisci iusto molestias asperiores explicabo cum vero
-          atque amet corporis! Soluta illum facere consequuntur magni. Ullam
-          dolorem repudiandae cumque voluptate consequatur consectetur, eos
-          provident necessitatibus reiciendis corrupti!
-        </p>
+        As a seasoned full-stack developer with six months of dedicated experience, I bring a robust skill set and a passion 
+        for crafting exceptional digital solutions. My expertise spans across a wide array of technologies, including HTML, CSS, 
+        and JavaScript for front-end development, along with React for building dynamic user interfaces. 
+        On the back end, I'm proficient in Express and Node.js, leveraging their power to create scalable 
+        and efficient server-side applications.</p><br/>
+        <p>My database skills extend to MongoDB, enabling me to design and implement data-driven solutions that are both secure and performant. 
+          Additionally, I have a strong grasp of modern CSS frameworks like Tailwind CSS and Material-UI (MUI), 
+          allowing me to create visually stunning and responsive designs with ease.</p>
         <div className="data">
-          <a href="#" className="hire">
-            Hire Me
-          </a>
+          <button type="submit" className="btn-2"><a href="#" >  Hire Me
+          </a></button>
+          
         </div>
       </div>
     
