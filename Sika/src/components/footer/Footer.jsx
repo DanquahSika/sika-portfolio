@@ -1,44 +1,41 @@
 import React from "react";
-import './footer.css'
+import "./footer.css";
 
 const Footer = () => {
-    return (
-        <div>
-            <footer className="footer">
-                <div className="footer__container">
-                    <h1 className="footer__title">Sika Danquah</h1>
-                    <div className="footer__social">
-                        <a href="#" className="footer__link">
-                            <i className="bx bxl-linkedin" />
-                        </a>
-                        <a
-                            href="https://github.com/bedimcode"
-                            className="footer__link"
-                            id="profile-link"
-                            target="_blank"
-                        >
-                            <i className="bx bxl-github" />
-                        </a>
-                        <a href="#" className="footer__link">
-                            <i className="bx bxl-figma" />
-                        </a>
-                        <a href="#" className="footer__link">
-                            <i className="bx bxl-codepen" />
-                        </a>
-                        <a href="#" className="footer__link">
-                            <i className="fas fa-bolt" />
-                        </a>
-                    </div>
-                    <p className="footer__copy">
-                        © 2024 Sika Danquah. All rights reserved
-                    </p>
-                </div>
-            </footer>
-            <div class="wave"></div>
-            <div class="wave"></div>
-            <div class="wave"></div>
+  return (
+    <div className="foo">
+    <footer className="foot">
+      <div className="footer__container">
+        <div className="footer__social">
+          <a href="https://www.linkedin.com/in/sika-danquah-04b782139/" className="footer__link">
+            <i className="bx bxl-linkedin" />
+          </a>
+          <a href="https://github.com/DanquahSika" className="footer__link" id="profile-link" target="_blank">
+            <i className="bx bxl-github" />
+          </a>
+          <a href="#" className="footer__link">
+            <i className="bx bxl-figma" />
+          </a>
+          <a href="#" className="footer__link">
+            <i className="bx bxl-codepen" />
+          </a>
+          <a href="#" className="footer__link">
+            <i className="fas fa-bolt" />
+          </a>
         </div>
-    );
+        <p className="footer__copy">
+          © 2024 Sika Danquah. All rights reserved
+        </p>
+      </div>
+      <div className="wave-main">
+        <div className="wave" />
+        <div className="wave" />
+        <div className="wave" />
+      </div>
+    </footer>
+  </div>
+  
+  );
 };
 
 export default Footer;

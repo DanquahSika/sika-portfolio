@@ -1,3 +1,4 @@
+
 .main {
     display: flex;
     flex-direction: column;
@@ -66,6 +67,12 @@
     font-size: 16px;
     text-decoration: none;
     border-radius: 6px;
+  }
+
+  .hero {
+    /* Prevent horizontal overflow */
+     overflow-y: hidden;
+    
   }
 
 .wave {

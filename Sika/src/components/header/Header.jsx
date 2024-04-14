@@ -5,7 +5,7 @@ import image from "../../assets/main.jpeg";
 const Header = () => {
   return (
     <>
-      <div className="hero">
+      <div className="hero overflow-x-hidden">
         <div className="main md:flex-row md:justify-center md:mt-16">
           <img
             src={image}
@@ -29,9 +29,11 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div>
         <div class="wave"></div>
         <div class="wave"></div>
         <div class="wave"></div>
+        </div>
       </div>
     </>
   );

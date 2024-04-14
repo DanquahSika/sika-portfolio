@@ -8,9 +8,9 @@
   /*===== Colors =====*/
   --first-color: #3E0E12;
   --first-color-dark: #2F0A0D;
-  /* --text-color: #524748;
+  --text-color: #524748;
   --first-color-light: #7B6F71;
-  --first-color-lighten: #FBF9F9; */
+  --first-color-lighten: #FBF9F9;
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
@@ -526,6 +526,7 @@ font-size: 3rem;
 }
 .contact__box{
   background-color: #fff;
+  opacity: 0.5;
   border-radius: 0.5rem;
   padding: 1.5rem;
   text-align: center;

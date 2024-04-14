@@ -5,31 +5,31 @@ const Contacts = () => {
   return (
    <div>
   <section className="contact section bd-container" id="contact">
-    <span className="section-subtitle">Let's help you in your projects</span>
+    <span className="section-subtitle">Need assistance in your projects?</span>
     <h2 className="section-title">Contact Me</h2>
     <div className="contact__container bd-grid">
       <div className="contact__content bd-grid">
         <div className="contact__box">
           <i className="bx bxs-home contact-icon" />
           <h3 className="contact__title">Location</h3>
-          <span className="contact__desc">#123 Cairo - Egypt</span>
+          <span className="contact__desc">122 Video Street</span>
         </div>
         <div className="contact__box">
           <i className="bx bxs-phone contact-icon" />
           <h3 className="contact__title">Phone</h3>
-          <span className="contact__desc">+201x-xxxx-xxxx</span>
+          <span className="contact__desc">+2335-0000-7120</span>
         </div>
         <div className="contact__box">
           <i className="bx bxs-envelope contact-icon" />
           <h3 className="contact__title">E-mail</h3>
-          <span className="contact__desc">m.selim@gmail.com</span>
+          <span className="contact__desc">sikadanquah@live.com</span>
         </div>
         <div className="contact__box">
           <i className="bx bxs-chat contact-icon" />
           <h3 className="contact__title">Chat</h3>
-          <a href="#" className="contact__social"><i className="bx bxl-whatsapp" />
+          <a href="https://wa.me/+233500007120" className="contact__social"><i className="bx bxl-whatsapp" />
           </a><a href="#" className="contact__social"><i className="bx bxl-messenger" />
-          </a><a href="#" className="contact__social"><i className="bx bxl-telegram" />
+          </a><a href="https://t.me/sikadanquah" className="contact__social"><i className="bx bxl-telegram" />
           </a>
         </div>
       </div>
@@ -52,4 +52,4 @@ const Contacts = () => {
   ) 
 }
 
-export default Contacts
+export default Contacts;

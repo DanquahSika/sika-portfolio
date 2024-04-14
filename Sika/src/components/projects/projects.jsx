@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import mixitup from 'mixitup';
+import image from '../../assets/project-3.png'
+import image2 from '../../assets/project-2.png'
 import "./projects.css";
 
 const Projects = () => {
@@ -73,9 +75,9 @@ const Projects = () => {
             </div>
           </div>
           <div className="portfolio__content mix web">
-            <a href="#" className>
+            <a href="https://cinematopia-1z1z0lb7e-danquahsikas-projects.vercel.app/" className>
               <img
-                src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work2.jpg"
+                src={image2}
                 alt
                 className="portfolio__img"
               />
@@ -93,9 +95,9 @@ const Projects = () => {
             </div>
           </div>
           <div className="portfolio__content mix ux">
-            <a href="#" className>
+            <a href="https://tech-portfolio-lyart.vercel.app/" className>
               <img
-                src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work3.jpg"
+                src={image}
                 alt
                 className="portfolio__img"
               />

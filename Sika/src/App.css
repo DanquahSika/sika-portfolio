@@ -19,11 +19,15 @@
   body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    overflow: auto;
+    overflow-x: hidden;
     background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+}
+
+.hero{
+    overflow-y: hidden;
 }
 
 @keyframes gradient {
@@ -86,3 +90,13 @@
     }
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

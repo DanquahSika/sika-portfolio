@@ -26,12 +26,14 @@
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #000;
 }
 
 .text h5 {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
+    color: #000;
 }
 
 span {
@@ -42,6 +44,7 @@ span {
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 1px;
+    color: #000;
 }
 
 .data {

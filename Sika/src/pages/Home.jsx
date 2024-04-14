@@ -5,7 +5,7 @@ import Marquees from '../components/marquee/Marquee'
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <Header />
             <Marquees /> 
         </div>
