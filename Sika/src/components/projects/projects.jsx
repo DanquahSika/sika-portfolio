@@ -67,7 +67,7 @@ const Projects = () => {
               <span className="portfolio__subtitle">Web Development</span>
               <a href="#">
                 <h2 className="portfolio__title">
-                  Online Market
+                  Online Market Website
                 </h2>
               </a>
               <a href="#" className="button button-link">
@@ -87,7 +87,7 @@ const Projects = () => {
               <span className="portfolio__subtitle">Web Development</span>
               <a href="#">
                 <h2 className="portfolio__title">
-                  New Portfolio of work done for a client
+                  Movie Streaming Website
                 </h2>
               </a>
               <a href="#" className="button button-link">
@@ -104,10 +104,10 @@ const Projects = () => {
               />
             </a>
             <div className="portfolio__data">
-              <span className="portfolio__subtitle">UI/UX</span>
+              <span className="portfolio__subtitle">Web Development</span>
               <a href="#">
                 <h2 className="portfolio__title">
-                  New Portfolio of work done for a client
+                  Generic Portfolio 
                 </h2>
               </a>
               <a href="#" className="button button-link">
