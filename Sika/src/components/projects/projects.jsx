@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import mixitup from 'mixitup';
 import image from '../../assets/project-3.png'
 import image2 from '../../assets/project-2.png'
+import image3 from '../../assets/addition.png'
 import "./projects.css";
 
 const Projects = () => {
@@ -57,7 +58,7 @@ const Projects = () => {
           <div className="portfolio__content mix web">
             <a href="#" className>
               <img
-                src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work1.jpg"
+                src={image3}
                 alt
                 className="portfolio__img"
               />
@@ -66,7 +67,7 @@ const Projects = () => {
               <span className="portfolio__subtitle">Web Development</span>
               <a href="#">
                 <h2 className="portfolio__title">
-                  New Portfolio of work done for a client
+                  Online Market
                 </h2>
               </a>
               <a href="#" className="button button-link">
