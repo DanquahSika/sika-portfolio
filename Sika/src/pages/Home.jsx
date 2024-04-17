@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className='overflow-hidden'>
             <Header />
-            <Marquees /> 
+            <Marquees />
         </div>
     )
 }
