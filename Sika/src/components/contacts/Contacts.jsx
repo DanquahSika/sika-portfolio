@@ -43,7 +43,9 @@ const Contacts = () => {
           <input type="number" placeholder="Phone-number" className="contact__input" />
         </div>
         <textarea className="contact__input" placeholder="Message" name id cols={0} rows={7} defaultValue={""} />
-        <div className="send__button"><input type="submit" defaultValue="Send" className="button contact__button" /></div></form>
+        <div></div><button type="submit" className="btn-2">
+            <a href="#"> Submit</a>
+          </button></form>
     </div>
   </section>
  
