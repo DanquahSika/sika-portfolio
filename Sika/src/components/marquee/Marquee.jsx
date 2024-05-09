@@ -68,7 +68,7 @@ const Marquees = () => {
           />
           <h1 className="hero-marquee_content-title">React.js</h1>
         </div>
-        <div className="skill-wrapper">
+        {/* <div className="skill-wrapper">
           <img
             src={image2}
             loading="lazy"
@@ -76,8 +76,8 @@ const Marquees = () => {
             className="tools-photo"
           />
           <h1 className="hero-marquee_content-title">Express.js</h1>
-        </div>
-        <div className="skill-wrapper">
+        </div> */}
+        {/* <div className="skill-wrapper">
           <img
             src={image6}
             loading="lazy"
@@ -85,7 +85,7 @@ const Marquees = () => {
             className="tools-photo"
           />
           <h1 className="hero-marquee_content-title">MongoDB</h1>
-        </div>
+        </div> */}
         <div className="skill-wrapper">
           <img
             src={image7}

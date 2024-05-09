@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from 'react-router-dom';
 import "./header.css";
 import image from "../../assets/main.jpeg";
 
@@ -15,17 +16,15 @@ const Header = () => {
           />
           <div className="main-detil">
             <p>Hello I'm</p>
-            <h1 className="font-semibold">Sika Danquah</h1>
-            <h4>FullStack Developer</h4>
+            <h1 className="font-semibold">Abigail C. Danquah</h1>
+            <h4>Frontend Developer</h4>
             <div className="btn">
               <button type="submit">Download CV</button>
-              <button type="submit" className="btn-2">
-                Hire Me
-              </button>
+              <button type="submit" className="btn-2"><NavLink to="/contact">Hire Me</NavLink></button>
             </div>
             <div className="social">
-              <i className="bx bxl-github" />
-              <i className="bx bxl-instagram" />
+              <a href="https://github.com/DanquahSika"><i className="bx bxl-github" /></a>
+              <a href="https://www.instagram.com/danqs_?igsh=ZTJhY2M2MXhvdnll"><i className="bx bxl-instagram" /></a>
             </div>
           </div>
         </div>
